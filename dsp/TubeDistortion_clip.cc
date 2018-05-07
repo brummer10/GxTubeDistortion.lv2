@@ -2,10 +2,6 @@
 // Code generated with Faust 0.9.90 (http://faust.grame.fr)
 
 #include "12au7_table.h"
-#include "resampler.cc"   // define struct PluginLV2
-#include "resampler-table.cc"   // define struct PluginLV2
-#include "zita-resampler/resampler.h"
-#include <assert.h>
 
 namespace TubeDistortion_clip {
 #define MAX_UPSAMPLE 8
