@@ -193,7 +193,7 @@ Gx_TubeDistortion_::Gx_TubeDistortion_() :
   TubeDistortion_clip(TubeDistortion_clip::plugin()),
   TubeDistortion_out(TubeDistortion_out::plugin()),
   bypass(0),
-  bypass_(0),
+  bypass_(2),
   needs_ramp_down(false),
   needs_ramp_up(false),
   bypassed(false) {};
