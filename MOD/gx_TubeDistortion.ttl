@@ -47,7 +47,7 @@
     lv2:project <http://guitarix.sourceforge.net/plugins/gx_TubeDistortion_> ;
     lv2:optionalFeature lv2:hardRTCapable ;
       
-    lv2:minorVersion 34;
+    lv2:minorVersion 35;
     lv2:microVersion 0;
 
     
@@ -99,8 +99,3 @@ Simulation of a Tube based Distortion Pedal.
         lv2:maximum 1.0 ;
     ] .
 
-<http://guitarix.sourceforge.net/plugins/gx_TubeDistortion_gui#_TubeDistortion_>
-  a guiext:GtkUI;
-  guiext:binary <gx_TubeDistortion_ui.so>;
-  guiext:requiredFeature guiext:makeResident;
-  .
