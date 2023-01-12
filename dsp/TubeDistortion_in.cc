@@ -150,7 +150,7 @@ void Dsp::connect(uint32_t port,void* data)
 {
 	switch ((PortIndex)port)
 	{
-	case INPUT: 
+	case INPUT_: 
 		fslider0_ = (float*)data; // , 0.5, 0.0, 1.0, 0.01 
 		break;
 	default:
